@@ -1,0 +1,67 @@
+html,body{
+    height: 100px;
+    margin: 0;
+    font-size: 16px;
+    font-family:sans-serif ;
+    font-weight: 400;
+    line-height: 1.8em;
+    color:#666;
+}
+
+.pimg1 {
+    background-image:url(pexels-andrejcook-131723.jpg);
+    min-height: 600%;
+}
+
+.pimg2 {
+    background-image:url(pexels-pixabay-147411.jpg);
+    min-height: 600px;
+}
+
+.pimg3{
+    background-image:url(pexels-samandgos-709552.jpg);
+    min-height: 600px;
+}
+
+.pimg1,.pimg2,.pimg3{
+    position: relative;
+    background-position: center;
+    background-size:cover ;
+    background-repeat: no-repeat;
+    background-attachment:fixed ;
+}
+
+.ptext{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+
+}
+
+.textBg{
+    background-color: black;
+    color: wheat;
+    padding: 20px;
+}
+
+.section{
+    padding: 50px 80px;
+    text-align: center;
+
+}
+
+.section-ligth{
+    background-color:rgb(24, 22, 22);
+    color: aliceblue;
+}
+
+.section-dark {
+    background-color: #666;
+    color: aliceblue;
+}
+
